@@ -1,3 +1,6 @@
+//Question can be found here:
+//https://leetcode.com/problems/ugly-number/
+
 package questions.easy;
 
 class Solution {
