@@ -21,10 +21,8 @@ def isValidColumn(board,row,column) -> bool:
     return True
 
 def isValidBox(board,row,column) -> bool:
-    print("hello")
-    print(row,column,"=",board[row][column])
     for i in range(3*int(row/3),3*int(row/3)+3):
-        for j in range(int(column/3),3*int(column/3)+1):
-            print(i,j,"=",board[i][j])
+        for j in range(3*int(column/3),3*int(column/3)+3):
+            if (row!=i and column!=j and board[row][column]==board[i][j]):
+                return False
     return True
-
