@@ -1,5 +1,6 @@
 //Question can be found here:
-//https://leetcode.com/problems/two-sum/
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+//The only major difference between this and the easy is that the index is only just +1
 package questions.medium;
 
 import java.util.Arrays;
