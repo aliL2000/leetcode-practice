@@ -1,6 +1,8 @@
 #Question can be found here:
 #https://leetcode.com/problems/3sum/
 
+#I could not get this one, even after spending some on it
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
