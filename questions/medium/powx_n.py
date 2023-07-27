@@ -1,3 +1,6 @@
+#Question can be found here:
+#https://leetcode.com/problems/powx-n/
+
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         def helper(x, n):
@@ -12,7 +15,7 @@ class Solution:
         res = helper(x, abs(n))
         return res if n >= 0 else 1 / res
 
-
+        #My solution below, it works fine, but it's too slow, this solution above uses more memory, but is faster
         # xreturned = x
         # for i in range(abs(n)-1):
         #     xreturned = xreturned * x
