@@ -5,6 +5,8 @@ package questions.medium;
 import java.util.Arrays;
 
 class Solution {
+
+    // This solution runs in 2ms, and the most efficient solution is not too different, so this is the only solution provided.
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
         Arrays.fill(res, 1);
