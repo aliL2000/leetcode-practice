@@ -1,3 +1,6 @@
+//Question can be found here:
+//https://leetcode.com/problems/binary-search
+
 package questions.easy;
 
 class Solution {
