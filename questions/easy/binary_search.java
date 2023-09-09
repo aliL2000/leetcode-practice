@@ -1,6 +1,8 @@
 //Question can be found here:
 //https://leetcode.com/problems/binary-search
 
+//Pretty efficient solution already, most, if not all Java submissions achieve the same run-time.
+
 package questions.easy;
 
 class Solution {
