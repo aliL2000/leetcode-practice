@@ -22,7 +22,7 @@ class Solution:
         #         n=temp_sum
         # return True
 
-        #This code below does exactly what I did, but it's far simpler and 
+        #This code below does exactly what I did, but it's far simpler and uses set's to check if the iteration has already happened (loop scenario)
         set_of_no=set()
         while n!=1: 
             #Convert the input number to a string, and using list comprehesion, sum the values of each digit
