@@ -3,6 +3,8 @@
 
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
+        #Non-original solution
+        #This is one of the most difficult solutions, and I couldn't even comprehend the solution
         if t == "":
             return ""
 
