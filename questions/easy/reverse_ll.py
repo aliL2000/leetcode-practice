@@ -6,7 +6,6 @@ class Solution:
         while current:
             #Create temp variables to store the values and pointer
             nxt = current.next
-            
             current.next = prev
             #Swap the values
             prev = current
