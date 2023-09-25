@@ -7,3 +7,8 @@ Questions are divided by their respective difficulty, and a link to the Leetcode
 I will also be going through my submissions on the weekend, showcasing other solutions with improved runtime (IMO there's only a few use cases where memory efficiency is as or more important that runtime efficiency).
 
 This will be updated as I complete the solutions!
+
+
+List of topic I need work on:
+- LinkedList
+- 
