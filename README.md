@@ -9,6 +9,6 @@ I will also be going through my submissions on the weekend, showcasing other sol
 This will be updated as I complete the solutions!
 
 
-List of topic I need work on:
+**List of topic I need work on:**
 - LinkedList
 - 
