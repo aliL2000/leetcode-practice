@@ -26,15 +26,18 @@ class Solution:
 
         head = cur = ListNode()
         while l1 and l2:
+            #Initialize two variables to hold the current heads of l1 and l2
             v1 = l1.val
             v2 = l2.val
+            #Compare and append the lowest value to the head of the list, it's ascending right?
             if v1 <= v2:
                 cur.next = l1
                 l1 = l1.next
             else:
                 cur.next = l2
                 l2 = l2.next
+            #Change the head of the output linked list
             cur = cur.next
-        
+        #If any of the lists is done, append the other
         cur.next = l1 if l1 else l2
         return head.next
