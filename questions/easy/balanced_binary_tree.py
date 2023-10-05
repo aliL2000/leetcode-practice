@@ -1,9 +1,6 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+#Question can be found here:
+#https://leetcode.com/problems/balanced-binary-tree/
+
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def dfs(root):
